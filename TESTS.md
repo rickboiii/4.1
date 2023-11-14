@@ -8,168 +8,30 @@ Before you submit your assignment to GitHub, make sure you run the example test 
 
 ## Example Case 1
 
-The output shows the sequence of moves needed to solve the Tower of Hanoi puzzle with 3 disks.
-
 ### Case 1: Example Input
 
 ```text
-3
+What is the expected input for manual test case 1?
 ```
 
 ### Case 1: Example Output
 
 ```text
-Move disk 1 from peg A to peg C
-Move disk 2 from peg A to peg B
-Move disk 1 from peg C to peg B
-Move disk 3 from peg A to peg C
-Move disk 1 from peg B to peg A
-Move disk 2 from peg B to peg C
-Move disk 1 from peg A to peg C
-Total moves: 7
+What is the expected output for manual test case 1?
 ```
 
 ## Example Case 2
 
-The output shows the sequence of moves needed to solve the Tower of Hanoi puzzle with 7 disks.
-
 ### Case 2: Example Input
 
 ```text
-7
+What is the expected input for manual test case 2?
 ```
 
 ### Case 2: Example Output
 
 ```text
-Move disk 1 from peg A to peg B
-Move disk 2 from peg A to peg C
-Move disk 1 from peg B to peg C
-Move disk 3 from peg A to peg B
-Move disk 1 from peg C to peg A
-Move disk 2 from peg C to peg B
-Move disk 1 from peg A to peg B
-Move disk 4 from peg A to peg C
-Move disk 1 from peg B to peg C
-Move disk 2 from peg B to peg A
-Move disk 1 from peg C to peg A
-Move disk 3 from peg B to peg C
-Move disk 1 from peg A to peg B
-Move disk 2 from peg A to peg C
-Move disk 1 from peg B to peg C
-Move disk 5 from peg A to peg B
-Move disk 1 from peg C to peg A
-Move disk 2 from peg C to peg B
-Move disk 1 from peg A to peg B
-Move disk 3 from peg C to peg A
-Move disk 1 from peg B to peg C
-Move disk 2 from peg B to peg A
-Move disk 1 from peg C to peg A
-Move disk 4 from peg C to peg B
-Move disk 1 from peg A to peg B
-Move disk 2 from peg A to peg C
-Move disk 1 from peg B to peg C
-Move disk 3 from peg A to peg B
-Move disk 1 from peg C to peg A
-Move disk 2 from peg C to peg B
-Move disk 1 from peg A to peg B
-Move disk 6 from peg A to peg C
-Move disk 1 from peg B to peg C
-Move disk 2 from peg B to peg A
-Move disk 1 from peg C to peg A
-Move disk 3 from peg B to peg C
-Move disk 1 from peg A to peg B
-Move disk 2 from peg A to peg C
-Move disk 1 from peg B to peg C
-Move disk 4 from peg B to peg A
-Move disk 1 from peg C to peg A
-Move disk 2 from peg C to peg B
-Move disk 1 from peg A to peg B
-Move disk 3 from peg C to peg A
-Move disk 1 from peg B to peg C
-Move disk 2 from peg B to peg A
-Move disk 1 from peg C to peg A
-Move disk 5 from peg B to peg C
-Move disk 1 from peg A to peg B
-Move disk 2 from peg A to peg C
-Move disk 1 from peg B to peg C
-Move disk 3 from peg A to peg B
-Move disk 1 from peg C to peg A
-Move disk 2 from peg C to peg B
-Move disk 1 from peg A to peg B
-Move disk 4 from peg A to peg C
-Move disk 1 from peg B to peg C
-Move disk 2 from peg B to peg A
-Move disk 1 from peg C to peg A
-Move disk 3 from peg B to peg C
-Move disk 1 from peg A to peg B
-Move disk 2 from peg A to peg C
-Move disk 1 from peg B to peg C
-Move disk 7 from peg A to peg B
-Move disk 1 from peg C to peg A
-Move disk 2 from peg C to peg B
-Move disk 1 from peg A to peg B
-Move disk 3 from peg C to peg A
-Move disk 1 from peg B to peg C
-Move disk 2 from peg B to peg A
-Move disk 1 from peg C to peg A
-Move disk 4 from peg C to peg B
-Move disk 1 from peg A to peg B
-Move disk 2 from peg A to peg C
-Move disk 1 from peg B to peg C
-Move disk 3 from peg A to peg B
-Move disk 1 from peg C to peg A
-Move disk 2 from peg C to peg B
-Move disk 1 from peg A to peg B
-Move disk 5 from peg C to peg A
-Move disk 1 from peg B to peg C
-Move disk 2 from peg B to peg A
-Move disk 1 from peg C to peg A
-Move disk 3 from peg B to peg C
-Move disk 1 from peg A to peg B
-Move disk 2 from peg A to peg C
-Move disk 1 from peg B to peg C
-Move disk 4 from peg B to peg A
-Move disk 1 from peg C to peg A
-Move disk 2 from peg C to peg B
-Move disk 1 from peg A to peg B
-Move disk 3 from peg C to peg A
-Move disk 1 from peg B to peg C
-Move disk 2 from peg B to peg A
-Move disk 1 from peg C to peg A
-Move disk 6 from peg C to peg B
-Move disk 1 from peg A to peg B
-Move disk 2 from peg A to peg C
-Move disk 1 from peg B to peg C
-Move disk 3 from peg A to peg B
-Move disk 1 from peg C to peg A
-Move disk 2 from peg C to peg B
-Move disk 1 from peg A to peg B
-Move disk 4 from peg A to peg C
-Move disk 1 from peg B to peg C
-Move disk 2 from peg B to peg A
-Move disk 1 from peg C to peg A
-Move disk 3 from peg B to peg C
-Move disk 1 from peg A to peg B
-Move disk 2 from peg A to peg C
-Move disk 1 from peg B to peg C
-Move disk 5 from peg A to peg B
-Move disk 1 from peg C to peg A
-Move disk 2 from peg C to peg B
-Move disk 1 from peg A to peg B
-Move disk 3 from peg C to peg A
-Move disk 1 from peg B to peg C
-Move disk 2 from peg B to peg A
-Move disk 1 from peg C to peg A
-Move disk 4 from peg C to peg B
-Move disk 1 from peg A to peg B
-Move disk 2 from peg A to peg C
-Move disk 1 from peg B to peg C
-Move disk 3 from peg A to peg B
-Move disk 1 from peg C to peg A
-Move disk 2 from peg C to peg B
-Move disk 1 from peg A to peg B
-Total moves: 127
+What is the expected output for manual test case 2?
 ```
 
 ## Execute the Unit Test in the Terminal

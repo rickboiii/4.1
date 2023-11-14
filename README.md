@@ -12,12 +12,13 @@ It is said, that the code that is read the most often is the test case code. Tha
 
 ## Instructions
 
-In this lab, you will be given a working program that requires a test script to be written for a basic calculator that does addition, subtraction, multiplication, and division. The code allows for you to accept values and do math actions.
+In this lab, you will be given a working program that requires a test script to be written for a basic calculator that does addition, subtraction, multiplication, and division. The code allows for you to accept values and do math actions. Update the file `test_main.py` to increase the number of pytest unit tests in order to ensure the class is valid.
 
 ### Tips
 
 * Consider how you will enter values into attributes will they be directly entered or use a method.
-* Consider how groups of methods work together
+* Consider how groups of methods work together.
+* Notice how in this version, the instructor has choosen to not use Input/Output testing, just unit tests.
 
 ---
 
@@ -27,13 +28,13 @@ Do not provide code for any of the questions. You need to provide answers to eac
 
 ### Question 1
 
-**How do automated unit tests affect a programmers ability to conduct testing?**
+**How do automated unit tests affect a programmers ability to conduct testing and should a programmer only use these test? Why or why not?**
 
 YOUR ANSWER HERE
 
 ### Question 2
 
-**Can you use only unit tests in testing a program? Why or why not?**
+**In the example test, how did do you ensure **
 
 YOUR ANSWER HERE
 

@@ -27,25 +27,25 @@ Do not provide code for any of the questions. You need to provide answers to eac
 
 ### Question 1
 
-**Explain the base case and recursive step in the Tower of Hanoi recursive algorithm.**
+**How do automated unit tests affect a programmers ability to conduct testing?**
 
 YOUR ANSWER HERE
 
 ### Question 2
 
-**How does recursion help in solving the Tower of Hanoi puzzle?**
+**Can you use only unit tests in testing a program? Why or why not?**
 
 YOUR ANSWER HERE
 
 ### Question 3
 
-**What is the time complexity of the recursive Tower of Hanoi algorithm, and why does it grow exponentially with the number of disks?**
+**A series of test functions were left in a subbed state. How did you choose to utilize or not utilize these?**
 
 YOUR ANSWER HERE
 
 ### Question 4
 
-**Suppose you have five disks in the Tower of Hanoi puzzle. How many moves would be required to solve the puzzle using the recursive algorithm?** Hint, you must give me the formula with solution, not just the answer. Knowing the time complexity will help you identify the formula and answer
+**What additional tests did you decide on adding? Provide information on why you choose these additional tests.**
 
 YOUR ANSWER HERE
 

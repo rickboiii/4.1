@@ -1,0 +1,31 @@
+name: Autograding Tests
+'on':
+- push
+- workflow_dispatch
+- repository_dispatch
+permissions:
+  checks: write
+  actions: read
+  contents: read
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: UT 1
+      id: ut-1
+      uses: education/autograding-command-grader@v1
+      with:
+        test-name: UT 1
+        setup-command: sudo -H pip3 install pytest
+        command: pytest Solution/test_main.py::test_case1
+        timeout: 10
+        max-score: 4
+    - name: Autograding Reporter
+      uses: education/autograding-grading-reporter@v1
+      env:
+        UT-1_RESULTS: "${{steps.ut-1.outputs.result}}"
+      with:
+        runners: ut-1

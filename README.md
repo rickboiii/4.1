@@ -34,7 +34,7 @@ YOUR ANSWER HERE
 
 ### Question 2
 
-**In the example test, how did do you ensure **
+**In the example test case, describe how to ensure a program is well tested?**
 
 YOUR ANSWER HERE
 

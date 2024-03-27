@@ -12,7 +12,11 @@ It is said, that the code that is read the most often is the test case code. Tha
 
 ## Instructions
 
-In this lab, you will be given a working program that requires a test script to be written for a basic calculator that does addition, subtraction, multiplication, and division. The code allows for you to accept values and do math actions. Update the file `test_main.py` to increase the number of pytest unit tests in order to ensure the class is valid. Then modify the `TESTS.md` file with the manual testing inputs with expected outputs if you were to use the class for input/output testing.
+In this lab, you will be given a working program that requires a test script to be written for a basic calculator that does addition, subtraction, multiplication, and division. The code allows for you to accept values and do math actions. 
+
+1. Update the file `test_main.py` to increase the number of pytest unit tests in order to ensure the class is valid.
+2. Modify the `TESTS.md` file with the manual testing inputs with expected outputs *if* you were to use the class for basic input/output testing.
+3. Answer the questions below on the `README.md` file.
 
 ### Tips
 

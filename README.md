@@ -3,9 +3,9 @@
 
 ## Student Information
 
-* Name
-* Semester/Year
-* CRN
+* Ricky Suarez
+* Spring/2024
+* 37902
 
 ## Description
 
@@ -35,25 +35,25 @@ Do not provide code for any of the questions. You need to provide answers to eac
 
 **How do automated unit tests affect a programmers ability to conduct testing and should a programmer only use these test? Why or why not?**
 
-YOUR ANSWER HERE
+Automated tests are fast and efficient but they provide only a limited range of inputs and may provide a false sense of security.
 
 ### Question 2
 
 **In the example test case, describe how to ensure a program is well tested?**
 
-YOUR ANSWER HERE
+You can ensure a program is well tested by having test cases that cover many parts of thr program
 
 ### Question 3
 
 **A series of test functions were left in a subbed state. How did you choose to utilize or not utilize these?**
 
-YOUR ANSWER HERE
+I did not utilize them.
 
 ### Question 4
 
 **What additional tests did you decide on adding? Provide information on why you choose these additional tests.**
 
-YOUR ANSWER HERE
+I decided on adding tests for dividing by zero. I chose to add this as it is an essential part of a trustworthy calculator.
 
 ---
 

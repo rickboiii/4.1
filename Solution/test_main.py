@@ -34,11 +34,40 @@ def test_case1():
     assert c.get_operand2() == v2
 
 def test_case2():
-    "Case 2: TBD"
+    # Case 2.1: Addition
+    c = Calculator(3, 4)
+    assert c.add() == 7
+
+    # Case 2.2: Subtraction
+    c.set_operand1(10)
+    c.set_operand2(5)
+    assert c.subtract() == 5
+
+    # Case 2.3: Multiplication
+    c.set_operand1(2.5)
+    c.set_operand2(6)
+    assert c.multiply() == 15
+
+    # Case 2.4: Division
+    c.set_operand1(20)
+    c.set_operand2(4)
+    assert c.divide() == 5
     pass
 
 def test_case3():
-    "Case 3: TBD"
+    "Test Division by Zero Handling"
+    # Create a Calculator object with operands 10 and 0
+    c = Calculator(10, 0)
+    
+    # Attempt division by zero
+    try:
+        c.divide()
+    except ZeroDivisionError:
+        # If ZeroDivisionError is raised, the test passes
+        pass
+    else:
+        # If no exception is raised, fail the test
+        assert False, "Division by zero did not raise ZeroDivisionError"
     pass
 
 def test_case4():
